@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: century gothic;
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+header nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+/**/
+
+form {
+  padding: 50px 20px;
+  background-color: #ededed;
+  margin: calc(25% + 100px);
+  margin-top: 70px;
+  padding-top: 28px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  padding: 12px;
+  color: #444;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 9px;
+  margin: auto;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  padding: 9px;
+  margin: auto;
+  margin-top: 12px;
+  font-size: 16px;
+  text-align: left;
+}
+
+input[type="submit"] {
+  background-color: #48e;
+  color: #fff;
+  width: calc(80% - 20px);
+  margin: 0 10%;
+  margin-top: 22px;
+  border: none;
+}
+
+button {
+  background-color: #48e;
+  color: #fff;
+  width: calc(80% - 20px);
+  margin: 0 10%;
+  margin-top: 22px;
+  border: none;
+  font-size: 16px;
+  padding: 9px;
+}
+
+table {
+  font-size: 16px;
+  margin: auto;
+  width: 480px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  background: #1abc9c;
+  /*border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;*/
+  color: #fff;
+}
+
+td {
+  padding: 16px;
+  background: #ededed;
+  border-bottom: 1px solid #fff;
+  color: black;
+  border-top: 1px solid transparent;
+}
+
+tr:hover td {
+  background: #d0dafd;
+  color: black;
+}

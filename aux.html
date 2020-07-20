@@ -1,0 +1,49 @@
+<form action="form.php" method="POST">
+  <fieldset>
+    <legend>Informacion de Usuario</legend>
+    <div>
+      <input type="text" name="first_name" placeholder="Nombre*" required />
+    </div>
+    <div>
+      <input type="text" name="last_name" placeholder="Apellido" />
+    </div>
+    <div>
+      <input type="email" name="email" placeholder="Correo Electronico" />
+    </div>
+    <div>
+      <label>
+        <input type="password" name="pass" placeholder="Contraseña" />
+        Su contraseña debe contener almenos 6 caracteres
+      </label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Tu carga de Materias del semestre</legend>
+    <label><input type="checkbox" /> Español</label>
+    <label><input type="checkbox" /> Matemaquicas</label>
+    <label><input type="checkbox" /> Fisica</label>
+    <label><input type="checkbox" /> Quimica</label>
+  </fieldset>
+  <fieldset>
+    <legend>tu genero</legend>
+    <label><input type="radio" name="gender" />Hombre</label>
+    <label><input type="radio" name="gender" />Mujer</label>
+    <!--<label><input type="radio">Prefiero no decirlo</label>-->
+  </fieldset>
+  <div>
+    <textarea
+      name="mesage"
+      id=""
+      cols="30"
+      rows="5"
+      placeholder="Escribe tu mensaje"
+    ></textarea>
+  </div>
+  <div>
+    <label for="">
+      Acepto los terminos y condiciones
+      <input type="checkbox" required />
+    </label>
+  </div>
+  <input type="submit" name="Enviar" />
+</form>
